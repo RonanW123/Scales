@@ -3,7 +3,6 @@ void setup() {
 }
 
 void draw() {
-  delay(400);
   for(int x = 0; x <= 500; x+=100){
     for(int y = 0; y <= 500; y+=125){
       int z = (int) (Math.random() * 256);
